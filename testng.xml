@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AllAPIUsersTests" parallel="false">
+
+    <!--    // Run by 2 commands 1- mvn clean test     2- allure serve allure-results-->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="API Tests">
+        <classes>
+            <class name="Tests.RegisterTest"/>
+            <class name="Tests.LoginTest"/>
+            <class name="Tests.GetUsersTest"/>
+            <class name="Tests.GetSingleUserTest"/>
+            <class name="Tests.CreateUserTest"/>
+            <class name="Tests.EditUserTest"/>
+            <class name="Tests.DeleteUserTest"/>
+            <class name="Tests.ListResourcesTest"/>
+        </classes>
+    </test>
+
+</suite>

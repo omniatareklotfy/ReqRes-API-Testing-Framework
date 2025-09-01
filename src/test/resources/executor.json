@@ -1,0 +1,10 @@
+{
+  "name": "Local Run",
+  "type": "maven",
+  "url": "https://reqres.in",
+  "buildName": "Build #12",
+  "buildOrder": 12,
+  "reportUrl": "http://127.0.0.1/",
+  "reportName": "Allure Report",
+  "note": "\uD83D\uDCCC ملف executor.json في Allure Report\n\nالـ executor.json وظيفته إنه يعرف Allure معلومات عن:\n\nإنتي بتشغلي التستات منين (محلي، Jenkins، GitHub Actions … إلخ).\n\nإيه الـ build name/number.\n\nالـ URL أو اللينك اللي بيرجع للـ pipeline أو التست run.\n\nبكده الريبورت يبقى شكله بروفيشنال وفيه metadata زيادة بدل ما يبقى فاضي."
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Critical Issues",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*NullPointerException.*"
+  },
+  {
+    "name": "Minor Bugs",
+    "matchedStatuses": [
+      "failed"
+    ],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Known Issues",
+    "matchedStatuses": [
+      "broken"
+    ]
+  },
+  {
+    "name": "Skipped Tests",
+    "matchedStatuses": [
+      "skipped"
+    ]
+  }
+]
